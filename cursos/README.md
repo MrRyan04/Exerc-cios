@@ -1,0 +1,2 @@
+## <i>Exercícios de cursos
+<i><b>Neste diretório, você encontrará subpastas para cada curso e seus execícios aos quais decidi armazenar. Cada subpasta contém os exercícios práticos realizados durante o curso.
