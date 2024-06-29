@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+background-image: linear-gradient(to right, 
+green 0%, 
+green 20%, 
+purple 20%, 
+purple 40%, 
+yellow 40%, 
+yellow 60%, 
+rgb(62, 62, 253) 60%, 
+rgb(62, 62, 253) 80%, 
+red 80%, 
+red 100%);
+height: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+
+
+}
+
+header{
+    height: 100px;
+    display: flex;
+}
+
+.banner {
+    height: 100px;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.pergunta{
+    font-size: 22px;
+    text-decoration: underline;
+    text-shadow: 1px 0.5px 0 rgba(61, 60, 60, 0.662);
+}
+
+input {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0);
+    margin: 5px;
+    font-size: 15px;
+    text-shadow: 1px 0.5px 0 rgba(61, 60, 60, 0.662);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+input:disabled{
+    cursor: not-allowed;
+}
+
+.prox{
+    width: 70px;
+    display: block;
+    margin: auto;
+    background-color: rgba(26, 24, 24, 0.26);
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 1px 0.5px 0 rgba(61, 60, 60, 0.662);
+}
+
+/* #div0{
+    margin-top: 0; background-color: rgba(0, 255, 170, 0);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+} */
+
+#div2{
+    display: none;
+}
+
+#div3{
+    display: none;
+}
+
+#div4{
+    display: none;
+}
+
+#div5{
+    display: none;
+}
+
+#div6{
+    display: none;
+}
+
+#div7{
+    display: none;
+}
+
+#div8{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(67, 230, 230, 0);
+    display: none;
+}
+
+
+
+#next1 {
+    display: none;
+}
+
+#next2 {
+    display: none;
+}
+
+#next3 {
+    display: none;
+}
+
+#next4 {
+    display: none;
+}
+
+#next5 {
+    display: none;
+}
+
+#next6 {
+    display: none;
+}
+
+#next7 {
+    display: none;
+    width: 120px;
+}

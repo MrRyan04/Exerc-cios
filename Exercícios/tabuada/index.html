@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="assets/css/tab.css">
+</head>
+<body>
+    <h1>Tabuada</h1>
+    <form action="">
+        <div class="label"><label for="tab">Escolha um número</label></div>
+        <input type="number" id="numero" style="display: block;">
+        <input type="button" id="bot" class="bot" value="Resultado" onclick="calc()">
+        <strong><input type="button" id="botM" class="bot" value="=" onclick="calc()"></strong>
+        <strong><input id="c" value="C" onclick="apag()" type="button"></strong>
+        <p id="pe"></p>
+    </form>
+    <footer><p>&copy; Mr Ryan</p></footer>
+
+    <script src="assets/js/tab.js"></script>
+</body>
+</html>

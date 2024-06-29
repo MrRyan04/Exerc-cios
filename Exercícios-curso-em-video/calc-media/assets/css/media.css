@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(0, 13, 255));
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+main {
+    width: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 6%;
+}
+
+.label {
+    text-align: center;
+}
+
+input {
+    margin: auto;
+}
+
+button {
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+#pe {
+   display: none; 
+   text-align: center;
+}
+
+@media screen and (max-width:500px){
+    main {
+        width: 70%;
+    }
+}
