@@ -4,4 +4,4 @@
 
 ##### Instrutor: Gustavo Guanabara - Curso em vídeo
 
-[🔗Clique aqui para acessar o link do projeto.](https://android-taupe.vercel.app/)
+<a href="https://android-taupe.vercel.app/" target="_blank">🔗Clique aqui para acessar o link do projeto.</a>

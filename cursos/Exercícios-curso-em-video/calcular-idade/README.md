@@ -4,4 +4,4 @@
 
 ##### Instrutor: Gustavo Guanabara - Curso em vídeo
 
-[🔗Clique aqui para acessar o link do projeto.](https://idade-mauve.vercel.app/)
+<a href="https://idade-mauve.vercel.app/">🔗Clique aqui para acessar o link do projeto.<a>
