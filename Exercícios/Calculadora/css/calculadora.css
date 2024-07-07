@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'digital7';
+    src: url('digital7italic.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(73, 84, 99);
+}
+
+#calc {
+    background-image: linear-gradient(to left, rgb(115, 115, 115), black);
+    height: 470px;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+} 
+
+header {
+    height: 15px;
+    width: 100%;
+    background-image: linear-gradient(to left, grey, black);
+}
+
+div {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#tela {
+    width: 90%;
+    height: 50px;
+    font-size: 50px;
+    background-color: rgb(212, 204, 195);
+    text-align: right;
+    font-family: 'digital7', sans-serif;
+    display: none;
+}
+
+.oi{
+    font-family: 'digital7', sans-serif;
+    width: 90%;
+    height: 50px;
+    font-size: 50px;
+    background-color: rgb(212, 204, 195);
+    text-align: right;
+}
+
+#ls1 {
+    margin-top: 20px;
+}
+
+.botoes {
+    width: 65px;
+    height: 65px;
+    font-size: 45px;
+    cursor: pointer;
+    background-color:#d6d6d6;
+    box-shadow: none;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.oper {
+    width: 65px;
+    height: 65px;
+    font-size: 45px;
+    cursor: pointer;
+    opacity: 1;
+    background-color: #d6d6d6;
+    cursor: pointer;
+    box-shadow: none;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.botoes:disabled{
+    cursor: row-resize;
+    background-color:#d6d6d6;
+    box-shadow: none;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+.oper:disabled{
+    cursor:no-drop;
+    opacity: 1;
+    background-color: #d6d6d6;
+    color: black;   
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+.oper:active{
+    cursor:no-drop;
+    background-color:#d6d6d6;
+    box-shadow: none;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    
+    
+}
+
+#ponto:disabled{
+    cursor:no-drop;
+    background-color:#d6d6d6;
+    box-shadow: none;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    color: black;   
+
+}
+
+footer {
+    margin-top: 9px;
+    color: rgba(204, 204, 204, 0.895);
+    font-style: italic;
+    text-shadow: 0 2px 4px rgb(0, 0, 0);;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(204, 204, 204, 0.895);
+}

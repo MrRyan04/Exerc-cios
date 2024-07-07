@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/calculadora.css">
+</head>
+<body>
+    <div id="calc">
+        <header></header>
+        <input type="text" name="" id="tela" readonly>
+        <input type="text" class="oi" readonly>
+
+        <div id="ls1">
+            <input type="button" value="C" class="botoes" id="del" onclick="ondel()">
+            <input type="button" value="ᴰᴱᴸ" class="botoes" onclick="onback()"> 
+            <input type="button" value="^" class="oper" onclick="onpot()">
+            <input type="button" id="mais" value="+" class="oper" onclick="onmais()" disabled>
+        </div>
+        <div id="ls4">
+            <input type="button" value="0" class="botoes" onclick="on0()">
+            <input type="button" value="."  id="ponto" class="botoes" onclick="onponto()">
+            <input type="button" value="%" class="oper" onclick="onper()"> 
+            <input type="button" value="÷" class="oper" onclick="ondiv()">
+        </div>
+        <div id="ls3">
+            <input type="button" id="bot7" value="7" class="botoes" onclick="on7()">
+            <input type="button" id="bot8" value="8" class="botoes" onclick="on8()">
+            <input type="button" id="bot9" value="9" class="botoes" onclick="on9()">
+            <input type="button" id="vzs" value="x" class="oper" onclick="onvzs()">
+        </div>
+        <div id="ls2">
+            <input type="button" id="bot4" value="4" class="botoes" onclick="on4()">
+            <input type="button" id="bot5" value="5" class="botoes" onclick="on5()">
+            <input type="button" id="bot6" value="6" class="botoes" onclick="on6()">
+            <input type="button" id="menos" value="-" class="oper" onclick="onmenos()">
+        </div>
+        <div id="ls5">
+            <input type="button" id="bot1" value="1" class="botoes" onclick="on1()">
+            <input type="button" id="bot2" value="2" class="botoes" onclick="on2()">
+            <input type="button" id="bot3" value="3" class="botoes" onclick="on3()">
+            <input type="button" value="=" class="oper" onclick="onres()"> 
+        </div>
+        <footer><b><a href="https://github.com/MrRyan04">Mr. Ryan</a></b></footer>
+    </div>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
