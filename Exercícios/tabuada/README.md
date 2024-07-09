@@ -1,3 +1,3 @@
 ### Tabuada
 <i><b>
-<a href="https://tabuada-mvyjvzoqo-mrs-projects-50ce13f9.vercel.app/"> 🔗Clique aqui para acessar o exercício.
+<a href="https://tabuada-seven-puce.vercel.app/"> 🔗Clique aqui para acessar o exercício.
